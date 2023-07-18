@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*{
+    
+    background: none;
+}
+body{
+    background-color: rgb(7, 7, 7);
+}
+/* navbar */
+nav h1{
+    color: #dc3545;
+    font-size: 2.5rem;
+}
+nav span{
+    color: white;
+    font-size: 2.2rem;
+} 
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    margin-left: 5vh;
+}
+#navbarNav{
+   flex-direction: row-reverse;
+   margin-right: 5vh;
+}
+/* corpo */
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    background-color: rgb(7, 7, 7);
+    
+}
+.conteudo h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #dc3545;
+}
+.sub_titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(104, 101, 101);
+    margin-top: 3vh;
+}
+.conteudo li{
+    color: white;
+}
+.conteudo li a{
+    color:rgb(252, 99, 99);
+}
+.conteudo li a:hover{
+    color: red;
+}
