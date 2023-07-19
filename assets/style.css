@@ -7,6 +7,8 @@
     text-decoration: none;
     background-color: black; 
 } 
+
+
 nav h1{
     color: #dc3545;
     font-size: 2.5rem;
@@ -215,6 +217,34 @@ nav span{
         grid-column: 1/-1;
     }
 }
+/* projetos finalizados */
+.sites_exemplo{
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+.sites_exemplo h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dc3545;
+    font-size: 8vh;
+}
+.sites_exemplo p{
+    color: #f7f7f7;
+    margin-bottom: 4vh;
+}
+.sites_exemplo a{
+    /* justify-self: start; */
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: 5vh;
+}
+.sites_exemplo a:hover{
+    color: #dc3545;
+    text-decoration: none;
+}
+
 
 /* serviços */
 .projetos{
