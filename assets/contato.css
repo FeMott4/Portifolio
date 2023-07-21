@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
-
+*{
+    
+} 
 nav{
     background-color: black;
 }
@@ -20,4 +22,40 @@ nav span{
 #navbarNav{
    flex-direction: row-reverse;
    margin-right: 5vh;
+}
+/* corpo */
+.corpo{
+    background-color: rgb(7, 7, 7); 
+}
+.title{
+    text-align: center;
+    color: #dc3545;
+    font-family: 'popins';
+    
+}
+.contato{
+    padding-top: 5vh;
+    padding-bottom: 70%;
+}
+.meio_contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5vh;
+}
+.icone{
+    text-align: center;
+    color: #f7f7f7;
+}
+.icone a{
+    color: #f7f7f7;
+}
+.icone a:hover{
+    color: #dc3545;
+}
+
+.icon{
+    color:white ;
+    width: 7vh;
+    margin-bottom: 2vh;
 }

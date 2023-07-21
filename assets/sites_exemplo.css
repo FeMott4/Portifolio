@@ -22,8 +22,28 @@ nav{
 }
 
 /* Cards */
+section{
+    background-color: rgb(7, 7, 7);
+}
+section h1{
+    text-align: center;
+    color: #dc3545;
+    font-family: popins;
+}
 .conteudo{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+/* card */
+.card-body{
+    background-color: #777;
+}
+.card{
+    margin-bottom: 3vh;
+}
+.btn{
+    width: 100%;
+    background-color: #dc3545;
+
 }
