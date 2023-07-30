@@ -3,10 +3,11 @@
 
 *{
     
-    background: none;
+   
 }
 body{
     background-color: rgb(7, 7, 7);
+  
 }
 /* navbar */
 nav h1{
@@ -37,10 +38,20 @@ nav span{
     padding-bottom: 10vh;
     background-color: rgb(7, 7, 7);
     
+    
 }
 .conteudo h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #dc3545;
+}
+
+.card button{
+    color: white;
+    text-decoration: none;
+}
+.card button:hover{
+    color: #dc3545;
+    text-decoration: none;
 }
 .sub_titulo{
     font-family:Georgia, 'Times New Roman', Times, serif;
